@@ -4,7 +4,7 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://acgh.thehyve.net/" />
-<title>ACGH Test Case</title>
+<title>TranSMART Grid View Test</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
@@ -37,58 +37,8 @@
 	<td></td>
 </tr>
 <tr>
-	<td>clickAt</td>
-	<td>css=#resultsTabPanel__dataAssociationPanel</td>
-	<td></td>
-</tr>
-<tr>
 	<td>click</td>
-	<td>//button[text()='Analysis']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//a[@class='x-menu-item' and text()='aCGH Survival Analysis']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>doubleClick</td>
-	<td>//a[span[starts-with(text(),'Cairo2 (')]]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>dragAndDropToObject</td>
-	<td>//span[starts-with(text(), 'aCGH Regions Data (')]</td>
-	<td>//div[@id='sa-input-region']</td>
-</tr>
-<tr>
-	<td>doubleClick</td>
-	<td>//a[span[starts-with(text(),'Endpoints (')]]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>dragAndDropToObject</td>
-	<td>//span[starts-with(text(),'Overall survival (')]</td>
-	<td>//div[@id='sa-input-survival']</td>
-</tr>
-<tr>
-	<td>doubleClick</td>
-	<td>//a[span[starts-with(text(),'OSevent (')]]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>dragAndDropToObject</td>
-	<td>//span[starts-with(text(),'Dead (')]</td>
-	<td>//div[@id='sa-input-censoring']</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//*[text()='LOSS vs NO LOSS']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>//button[text()='Run Analysis']</td>
+	<td>//*[text()='Generate Summary Statistics']</td>
 	<td></td>
 </tr>
 <tr>
@@ -97,8 +47,43 @@
 	<td></td>
 </tr>
 <tr>
-	<td>waitForVisible</td>
-	<td>id=intermediateGridPanel</td>
+	<td>assertText</td>
+	<td>//div[@class='analysistitle']</td>
+	<td>Summary Statistics</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[text()='Grid View']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Subject</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Patient</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Trial</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sex</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Age</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Race</td>
 	<td></td>
 </tr>
 </tbody></table>
