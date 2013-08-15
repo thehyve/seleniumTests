@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://acgh.thehyve.net/" />
+<title>TC_TSMART_GENERATE_SUMMARY_STATISTICS_FILTER_NUMERICAL_VALUE</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_TSMART_GENERATE_SUMMARY_STATISTICS_FILTER_NUMERICAL_VALUE</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/transmart/datasetExplorer/index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='Dataset Explorer']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[text()='Private Studies']]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[starts-with(text(), 'Cairo2')]]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[starts-with(text(), 'Subjects')]]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(), 'Cairo2 (')]</td>
+	<td>//div[@id='queryCriteriaDiv1_1']</td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(), 'Age (')]</td>
+	<td>//div[@id='queryCriteriaDiv1_2']</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value=&quot;numeric&quot; and @name=&quot;setValueMethod&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id=&quot;setValueLowValue&quot;]</td>
+	<td>60</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='Show Histogram']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Histogram</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='Show Histogram for subset']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>//div[@id=&quot;setvaluechartsPanel2&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='OK']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='Generate Summary Statistics']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setTimeout</td>
+	<td>10000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Summary Statistics</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>\Private Studies\Private Studies\Cairo2\Subjects\Age\ LT 60</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
