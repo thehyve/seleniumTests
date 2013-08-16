@@ -78,7 +78,7 @@
 </tr>
 <tr>
 	<td>dragAndDropToObject</td>
-	<td>//span[starts-with(text(),'Dead (')]</td>
+	<td>//span[starts-with(text(),'Alive (')]</td>
 	<td>//div[@id='sa-input-censoring']</td>
 </tr>
 <tr>
@@ -99,6 +99,56 @@
 <tr>
 	<td>waitForVisible</td>
 	<td>id=intermediateGridPanel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[text()='784458']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//button[text()='Show Survival Plot']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@class='survivalPlotImg']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//table[@class='newspaper-a'] | table/caption[starts-with(text(), 'Table 1: Input Parameters ')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//table[@class='newspaper-a'] | table/caption[starts-with(text(), 'Table 2: Result')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[text()='842726']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//button[text()='Show Survival Plot']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//img[@class='survivalPlotImg']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//table[@class='newspaper-a'] | table/caption[starts-with(text(), 'Table 1: Input Parameters ')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//table[@class='newspaper-a'] | table/caption[starts-with(text(), 'Table 2: Result')]</td>
 	<td></td>
 </tr>
 </tbody></table>
