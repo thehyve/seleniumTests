@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://acgh.thehyve.net/" />
+<title>TC_TSMART_GROUP_TEST_CHI_LOSS</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_TSMART_GROUP_TEST_CHI_LOSS</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAt</td>
+	<td>//a[@class='x-tab-right']//em//span//span[text()='Advanced Workflow']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//button[text()='Analysis']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//a[text()='Group Test for aCGH']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClickAt</td>
+	<td>//span[text()='Cairo2 (240)']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[text()='aCGH Regions Data (131)']</td>
+	<td>//div[@id='gt-input-region']</td>
+</tr>
+<tr>
+	<td>doubleClickAt</td>
+	<td>//span[text()='Primary Tumor (240)']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClickAt</td>
+	<td>//span[text()='MSI (240)']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[text()='MSI (13)']</td>
+	<td>//div[@id='gt-input-group']</td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[text()='MSS (146)']</td>
+	<td>//div[@id='gt-input-group']</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//label[text()='Chi-square']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//label[text()='GAIN']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//button[text()='Run Analysis']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='showJobStatus']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='showJobStatus']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setTimeout</td>
+	<td>600000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[@id='intermediateGridPanel']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='intermediateGridPanel']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[@id='downloadBtn']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Subset 1: (\Private Studies\Cairo2\ )</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>\Private Studies\Cairo2\Primary Tumor\MSI\MSI\</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>\Private Studies\Cairo2\Primary Tumor\MSI\MSS\</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
