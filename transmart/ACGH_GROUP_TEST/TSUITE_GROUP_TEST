@@ -10,6 +10,7 @@
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="../TC_TSMART_GENERATE_SUMMARY_STATISTICS_ONE_SUBSET.xml">TC_TSMART_GENERATE_SUMMARY_STATISTICS_ONE_SUBSET</a></td></tr>
 <tr><td><a href="TC_TSMART_GROUP_TEST_CHI_LOSS.xml">TC_TSMART_GROUP_TEST_CHI_LOSS</a></td></tr>
+<tr><td><a href="TC_TSMART_GROUP_TEST_GRID">TC_TSMART_GROUP_TEST_GRID</a></td></tr>
 </tbody></table>
 </body>
 </html>
