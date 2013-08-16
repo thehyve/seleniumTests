@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://acgh.thehyve.net/" />
+<title>TC_TSMART_ACGH_SURVIVAL_ANALYSIS_TABLE_SORTING_01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_TSMART_ACGH_SURVIVAL_ANALYSIS_TABLE_SORTING_01</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/transmart/datasetExplorer/index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='Dataset Explorer']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[text()='Private Studies']]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(), 'Cairo2 (')]</td>
+	<td>//div[@id='queryCriteriaDiv1_1']</td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//li[@id='resultsTabPanel__dataAssociationPanel']/a[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=#resultsTabPanel__dataAssociationPanel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[text()='Analysis']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@class='x-menu-item' and text()='aCGH Survival Analysis']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[starts-with(text(),'Cairo2 (')]]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(), 'aCGH Regions Data (')]</td>
+	<td>//div[@id='sa-input-region']</td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[starts-with(text(),'Endpoints (')]]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(),'Overall survival (')]</td>
+	<td>//div[@id='sa-input-survival']</td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//a[span[starts-with(text(),'OSevent (')]]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>dragAndDropToObject</td>
+	<td>//span[starts-with(text(),'Alive (')]</td>
+	<td>//div[@id='sa-input-censoring']</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//*[text()='LOSS vs NO LOSS']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[text()='Run Analysis']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setTimeout</td>
+	<td>600000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>id=intermediateGridPanel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[text()='pvalue']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[contains(text(), 'pvalue')] | img[@src='/transmart/static/js/ext/resources/images/default/s.gif']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//*[text()='fdr']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[contains(text(), 'fdr')] | img[@src='/transmart/static/js/ext/resources/images/default/s.gif']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
