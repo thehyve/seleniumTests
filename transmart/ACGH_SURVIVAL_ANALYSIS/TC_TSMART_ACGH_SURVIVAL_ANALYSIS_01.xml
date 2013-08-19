@@ -102,6 +102,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForVisible</td>
+	<td>//*[text()='784458']</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAt</td>
 	<td>//*[text()='784458']</td>
 	<td></td>
