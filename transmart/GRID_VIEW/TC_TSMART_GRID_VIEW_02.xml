@@ -12,12 +12,12 @@
 <tr><td rowspan="1" colspan="3">TC_TSMART_GRID_VIEW_02</td></tr>
 </thead><tbody>
 <tr>
-	<td>click</td>
+	<td>clickAt</td>
 	<td>//div[@class='x-grid3-hd-inner x-grid3-hd-SEX_CD']/a</td>
 	<td></td>
 </tr>
 <tr>
-	<td>click</td>
+	<td>clickAt</td>
 	<td>//ul[@class='x-menu-list']//a[text()='Sort Ascending']</td>
 	<td></td>
 </tr>
@@ -31,7 +31,6 @@
 	<td>//div[@class='x-grid3-cell-inner x-grid3-col-SEX_CD']</td>
 	<td>Female</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
