@@ -12,6 +12,21 @@
 <tr><td rowspan="1" colspan="3">TC_TSMART_GROUP_TEST_GRID</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[@class='x-grid3-cell-inner x-grid3-col-0' and ancestor::td[1]/following-sibling::td[1][div/text() = 'Completed']]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeed</td>
+	<td>0</td>
+	<td></td>
+</tr>
+<tr>
 	<td>assertElementPresent</td>
 	<td>//div[text()='chromosome']</td>
 	<td></td>

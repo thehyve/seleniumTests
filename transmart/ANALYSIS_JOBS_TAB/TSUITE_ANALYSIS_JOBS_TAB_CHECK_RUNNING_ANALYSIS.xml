@@ -8,8 +8,9 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../../../../GitHub/seleniumTests/transmart/ANALYSIS_JOBS_TAB/TC_TSMART_ANALYSIS_JOBS_TAB_CHECK_TABLE.xml">TC_TSMART_ANALYSIS_JOBS_TAB_CHECK_TABLE</a></td></tr>
-<tr><td><a href="../../../../GitHub/seleniumTests/transmart/ACGH_GROUP_TEST/TC_TSMART_GROUP_TEST_GRID">TC_TSMART_GROUP_TEST_GRID</a></td></tr>
+<tr><td><a href="TC_TSMART_ANALYSIS_JOBS_TAB_CHECK_TABLE.xml">TC_TSMART_ANALYSIS_JOBS_TAB_CHECK_TABLE</a></td></tr>
+<tr><td><a href="TC_TSMART_ACGH_SURVIVAL_ANALYSIS_RUN_IN_BACKGROUND.xml">TC_TSMART_ACGH_SURVIVAL_ANALYSIS_RUN_IN_BACKGROUND</a></td></tr>
+<tr><td><a href="TC_TSMART_ANALYSIS_JOBS_TAB_CLICK_RUNNING_ANALYSIS.xml">TC_TSMART_ANALYSIS_JOBS_TAB_CLICK_RUNNING_ANALYSIS</a></td></tr>
 </tbody></table>
 </body>
 </html>
