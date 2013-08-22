@@ -12,6 +12,11 @@
 <tr><td rowspan="1" colspan="3">TC_TSMART_GRID_VIEW_03</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAt</td>
 	<td>//div[@class='x-grid3-hd-inner x-grid3-hd-SEX_CD']/a</td>
 	<td></td>
@@ -32,19 +37,9 @@
 	<td></td>
 </tr>
 <tr>
-	<td>setTimeout</td>
-	<td>600000</td>
+	<td>verifyNotVisible</td>
+	<td>//div[@class='x-grid3-hd-inner x-grid3-hd-subject']</td>
 	<td></td>
-</tr>
-<tr>
-	<td>waitForElementNotPresent</td>
-	<td>ul[@class='x-menu-list']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertTextNotPresent</td>
-	<td>//div[@class='x-grid3-header-offset']//div</td>
-	<td>Subject</td>
 </tr>
 </tbody></table>
 </body>

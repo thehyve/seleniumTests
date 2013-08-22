@@ -12,6 +12,11 @@
 <tr><td rowspan="1" colspan="3">TC_TSMART_GRID_VIEW_02</td></tr>
 </thead><tbody>
 <tr>
+	<td>setSpeed</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAt</td>
 	<td>//div[@class='x-grid3-hd-inner x-grid3-hd-SEX_CD']/a</td>
 	<td></td>
