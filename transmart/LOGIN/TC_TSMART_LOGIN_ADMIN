@@ -12,29 +12,29 @@
 <tr><td rowspan="1" colspan="3">TC_TSMART_LOGIN_ADMIN</td></tr>
 </thead><tbody>
 <tr>
-	<td>setSpeed</td>
-	<td>1000</td>
-	<td></td>
-</tr>
-<tr>
-	<td>open</td>
-	<td>http://transmart-demo.thehyve.net</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Login ID</td>
-	<td></td>
-</tr>
-<tr>
-	<td>verifyTextPresent</td>
-	<td>Password</td>
-	<td></td>
+	<td>waitForText</td>
+	<td>//h3</td>
+	<td>Please login...</td>
 </tr>
 <tr>
 	<td>type</td>
 	<td>//input[@id='j_username']</td>
-	<td>admin</td>
+	<td>${adminUserName}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@id='j_password']</td>
+	<td>${adminUserPassword}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=loginButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>class=welcome</td>
+	<td>Welcome to tranSMART*</td>
 </tr>
 </tbody></table>
 </body>
