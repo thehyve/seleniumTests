@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://transmart-demo.thehyve.net/" />
+<title>Set variables transmart-demo.thehyve.net</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Set variables transmart-demo.thehyve.net</td></tr>
+</thead><tbody>
+<tr>
+	<td>store</td>
+	<td>user</td>
+	<td>disabledUserName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>user</td>
+	<td>disabledUserPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>bla</td>
+	<td>wrongUserName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>bla</td>
+	<td>wrongUserPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>?</td>
+	<td>activeUserName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>?</td>
+	<td>activeUserPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>admin</td>
+	<td>adminUserName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>Utrecht.Boston</td>
+	<td>adminUserPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>Cell-line</td>
+	<td>studyName</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>http://transmart-demo.thehyve.net</td>
+	<td>baseURL</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>${baseURL}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
