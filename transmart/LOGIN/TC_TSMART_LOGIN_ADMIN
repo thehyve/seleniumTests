@@ -18,7 +18,7 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>http://test-build.thehyve.net/transmart/</td>
+	<td>http://transmart-demo.thehyve.net</td>
 	<td></td>
 </tr>
 <tr>
@@ -36,7 +36,6 @@
 	<td>//input[@id='j_username']</td>
 	<td>admin</td>
 </tr>
-
 </tbody></table>
 </body>
 </html>
