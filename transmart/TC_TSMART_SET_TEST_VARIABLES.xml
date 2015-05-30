@@ -31,14 +31,15 @@
 	<td>bla</td>
 	<td>wrongUserPassword</td>
 </tr>
+<!--No currently active user known, so using admin credentials-->
 <tr>
 	<td>store</td>
-	<td>?</td>
+	<td>admin</td>
 	<td>activeUserName</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>?</td>
+	<td>Utrecht.Boston</td>
 	<td>activeUserPassword</td>
 </tr>
 <tr>
