@@ -9,12 +9,15 @@
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="TC_TSMART_SET_TEST_VARIABLES.xml">TC_TSMART_SET_TEST_VARIABLES</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_DISABLED">TC_TSMART_LOGIN_USER_DISABLED</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_WRONG_CREDENTIALS">TC_TSMART_LOGIN_USER_WRONG_CREDENTIALS</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_ACTIVE">TC_TSMART_LOGIN_USER_ACTIVE</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGOUT">TC_TSMART_LOGOUT</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGIN_ADMIN">TC_TSMART_LOGIN_ADMIN</a></td></tr>
-<tr><td><a href="LOGIN/TC_TSMART_LOGOUT">TC_TSMART_LOGOUT</a></td></tr>
+<tr><td><a href="NAVIGATE/TC_TSMART_NAVIGATE_TO_BASEURL.xml">TC_TSMART_NAVIGATE_TO_BASEURL</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_DISABLED.xml">TC_TSMART_LOGIN_USER_DISABLED</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_WRONG_CREDENTIALS.xml">TC_TSMART_LOGIN_USER_WRONG_CREDENTIALS</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGIN_USER_ACTIVE.xml">TC_TSMART_LOGIN_USER_ACTIVE</a></td></tr>
+<tr><td><a href="NAVIGATE/TC_TSMART_NAVIGATE_TO_ANALYZE.xml">TC_TSMART_NAVIGATE_TO_ANALYZE</a></td></tr>
+<tr><td><a href="ANALYZE/COMPARISON/TC_TSMART_COMPARISON_CREATE_AND_CLEAR_SUBSET.xml">TC_TSMART_COMPARISON_CREATE_AND_CLEAR_SUBSET</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGOUT.xml">TC_TSMART_LOGOUT</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGIN_ADMIN.xml">TC_TSMART_LOGIN_ADMIN</a></td></tr>
+<tr><td><a href="LOGIN/TC_TSMART_LOGOUT.xml">TC_TSMART_LOGOUT</a></td></tr>
 </tbody></table>
 </body>
 </html>
