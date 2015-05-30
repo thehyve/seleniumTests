@@ -13,33 +13,32 @@
 </thead><tbody>
 <tr>
 	<td>store</td>
-	<td>user</td>
+	<td>?</td>
 	<td>disabledUserName</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>user</td>
+	<td>?</td>
 	<td>disabledUserPassword</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>bla</td>
+	<td>wrong</td>
 	<td>wrongUserName</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>bla</td>
+	<td>wrong</td>
 	<td>wrongUserPassword</td>
 </tr>
-<!--No currently active user known, so using admin credentials-->
 <tr>
 	<td>store</td>
-	<td>admin</td>
+	<td>user</td>
 	<td>activeUserName</td>
 </tr>
 <tr>
 	<td>store</td>
-	<td>Utrecht.Boston</td>
+	<td>?</td>
 	<td>activeUserPassword</td>
 </tr>
 <tr>
@@ -49,7 +48,7 @@
 </tr>
 <tr>
 	<td>store</td>
-	<td>Utrecht.Boston</td>
+	<td>?</td>
 	<td>adminUserPassword</td>
 </tr>
 <tr>
@@ -59,7 +58,7 @@
 </tr>
 <tr>
 	<td>store</td>
-	<td>http://transmart-demo.thehyve.net</td>
+	<td>?</td>
 	<td>baseURL</td>
 </tr>
 </tbody></table>
