@@ -62,11 +62,6 @@
 	<td>http://transmart-demo.thehyve.net</td>
 	<td>baseURL</td>
 </tr>
-<tr>
-	<td>open</td>
-	<td>${baseURL}</td>
-	<td></td>
-</tr>
 </tbody></table>
 </body>
 </html>
